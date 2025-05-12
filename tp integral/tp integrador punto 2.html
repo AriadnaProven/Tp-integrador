@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tp integrador punto 2</title>
+    </head>
+    <body>
+        <from method="Post"></from>
+        <h1>Curriculum Vitae</h1> 
+        <h2>Datos personales</h2>
+        <tr>
+           <td>Nombre: <input type="text" name="Nombre" required placeholder="Nombre"></td> 
+           <br> <br>
+          <td> Apellido: <input type="text" name="Apellido" required placeholder="Apellido"></td>
+          <br> <br>
+         </tr>
+            <td>DNI <input type="number" name="dni" required placeholder="Numero de D.N.I"></td>
+            <br> <br>
+            <td>C.U.I.L <input type="CUIL" name="CUIL" required placeholder="CUIL"></td>  
+            <br>  <br>
+            <td>Fecha de nacimiento <input type="date" name="nacimiento" required placeholder="nacimiento"></td>
+            <br> <br>
+            <td>Codigo postal <input type="codigo postal" name="CP" requiredplace="CP"></td>
+        </tr>
+        <h3>Informacion de contacto</h3>
+         <tr>
+            <td>Numero de contacto: <input type="number" name="telefono" required placeholder="numero de telefono"></td>
+           <br> <br>
+            <td>Mail de contacto:<input type="email" name="mail" required placeholder="ejemplo@gmail.com"></td>
+        </tr>
+           
+    
+        <tr>
+        <td><h2>Datos academicos</h2></td>
+       </tr>
+        <tr>
+            <td>Elija su nivel academico: <input list="Listado">
+                    <datalist id="Listado">
+                        <option value="Secundario Completo"></option>
+                        <option value="Secundario incompleto"></option>
+                        <option value="Secundario en curso"></option>
+                        <option value="Terciario"></option>
+                        <option value="Terciario en curso"></option>
+                        <option value="Universitario"></option>
+                        <option value="Universitario en curso"></option>
+                    </datalist>
+            </td>
+        </tr>
+        <br> <br>
+        <tr>
+            <td>Indique su carrera: <input type="text" name="carrera" placeholder="carrera"></td>
+        </tr>
+        <tr>
+            <td><h2>Experiencia laboral</h2></td>
+   </tr>
+        </table>
+<table>
+    <tr>
+        <td>Experiencia laboral:</td>
+        <td>
+        <td> Con experiencia <input type="radio" name="experiencia" value="no"></td>
+        <td> Sin experiencia <input type="radio" name="experiencia" value="si"></td>
+    </tr>
+</table>
+
+    <table>
+        <tr>
+            <td>Comentar sobre su experiencia previa: <input type="text" name="xp" placeholder="Indique su experiencia"></td>
+        </tr>
+    </table>
+
+    <h1>Referencias</h1>
+    <tr>
+        <td>¿Cuenta con referencias de trabajos anteriores?</td>
+        <td>
+        <td> Si <input type="radio" name="Referencias" value="no"></td>
+        <td> No <input type="radio" name="Referencias" value="si"></td>
+    </tr>
+</table>
+
+    <table>
+        <tr>
+            <td> Coloque los datos pertinentes para contactarnos: <input type="text" name="xp" placeholder="Ej:Numero,nombre,empresa"></td>
+        </tr>
+    </table>
+
+    </form>
+        <input type="submit" name="Enviar Formulario">   
+</body>
+</html>
+
+            

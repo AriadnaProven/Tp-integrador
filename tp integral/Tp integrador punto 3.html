@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body>
+    <h1><p>Formulario de registro - Mi web</p></h1>
+    <form method="get" accion="">
+            <table>
+               <tr> 
+                <td>Nombre: <input type="text" name="Nombre" required placeholder="Nombre"></td>
+                <td></td>
+                <td>Apellidos: <input type="text" name="Apellido" required placeholder="Apellido"></td> 
+                </tr>
+               
+            </table>
+            Sexo: Hombre <input type="radio" name="sexo" value="H"> Mujer <input type="radio" name="sexo" value="M">
+            <table>
+                   <tr>
+                 <td>Correo electronico: <input type="text" name="mail" required placeholder="ejemplo@gmail.com"></td>
+                   </tr>
+            </table> 
+            <table>
+                <tr>
+                <td> <input type="checkbox" value="acepto" name="condiciones" required checked> Deseo recibir información sobre novedades y ofertas</td>
+                   </tr>
+            </table>
+            <table>    
+                   <tr>
+                    <td><td><input type="checkbox" value="acepto" name="condiciones" required>Declaro haber leido las <a href="Tp integrador punto 3-2.html">condiciones generales</a> del programa y la normativa sobre proteccion de datos</td></td>
+                   </tr>
+            </table>
+            <br>
+            Elegir una opcion:
+                    <select><datalist id="Listado">
+                      <option value="Argentina">Argentina</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Guayana Francesa">Guayana Francesa</option>
+                        <option value="Guyana">Guyana</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Peru">Perú</option>
+                        <option value="Surinam">Surinam</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Venezuela">Venezuela</option> 
+                    </select>
+            </datalist>
+             <br><br>
+            Contraseña: <input type="password" name="contraseña" required placeholder="Contraseña">
+           <br> <br>
+            Repita su contraseña: <input type="password" name="contraseña" required placeholder="Contraseña">
+            <br><br>
+            Estado civil:
+            <select><datalist id="Listado">
+                <option value="Soltero/a">Soltero</option>
+                <option value="Casado/a">Casado</option>
+                <option value="Divorciado/a">Divorciado</option>
+                <option value="Separado/a">Separado</option>
+                <option value="Viudo/a">Viudo</option></select>
+            </datalist>
+                  <br><br>
+            <table>
+                <tr>
+                    <td>Provincia: <input type="text" name="Provincia" required placeholder="Provincia"></td>
+                    <td></td>
+                    <td>Ciudad: <input type="text" name="Ciudad" required placeholder="Ciudad/localidad"></td>
+                </tr>
+                <tr>
+                    <td>Direccion: <input type="text" name="Direccion" required placeholder= "Direccion"></td>
+                    <td></td>
+                    <td>Altura: <input type="number" name="Numero" required placeholder="Numero"></td>
+                    <td></td>
+                    <td>N° de depto: <input type="text" name="Departamento" placeholder="Departamento"></td>
+                </tr>
+            </table>
+            <br><br>
+            <input type="submit" name="Enviar Formulario"  
+</body>
+</html>
